@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.title {
+
+    width: 25%;
+    color: #ff6400;
+    transition: all .8s;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.infoes {
+    margin-top: 17px;
+}
+
+.infoes .info {
+    width: 93%;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    padding: 20px 30px;
+    transition: .7s;
+    margin-bottom: 10px;
+}
+
+.infoes .info:hover {
+    background-color: #ff6400;
+}
+
+.infoes .info h5 {
+    font-size: 15px;
+}
+
+.infoes .info p {
+    font-size: 13px;
+    color: #787878;
+}
